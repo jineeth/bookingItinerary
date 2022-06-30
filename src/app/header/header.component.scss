@@ -1,0 +1,11 @@
+.background {
+    background-image: url("../../assets/images/af_pattern_bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .mat-toolbar-row, .mat-toolbar-single-row {
+      justify-content: center !important;
+  }

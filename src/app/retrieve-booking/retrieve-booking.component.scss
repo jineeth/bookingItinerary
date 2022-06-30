@@ -1,0 +1,52 @@
+.flex-containter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding :10px;
+
+    mat-form-field {
+        width: 100%;
+      }
+
+    .mat-raised-button.mat-primary {
+        width:100%;
+    }
+    .mat-flat-button.mat-primary, .mat-raised-button.mat-primary, .mat-fab.mat-primary, .mat-mini-fab.mat-primary {
+        background-color:#c00;
+    }
+  }
+  
+  .margin-top {
+    margin-top: 35px;
+
+    hr {
+        height: 4px;
+        color: #373639;
+        width: 19px;
+        background: #4244f4;
+        margin: auto;
+        opacity : 1 !important;
+    }
+ 
+    .align-heading {
+        width : 280px ;
+        margin: auto;
+    }
+    @media screen and (min-width: 450px) {
+        .box-width {
+            width : 370px;
+            padding: 20px;
+            border: solid 2px #a392c7;
+            box-shadow: 0 4px 5px -2px rgb(0 0 0 / 20%), 0 7px 10px 1px rgb(0 0 0 / 14%), 0 2px 16px 1px rgb(0 0 0 / 12%);
+        
+        }
+    }
+    
+}
+
+
+
+
+
+
+ 
